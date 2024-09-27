@@ -27,7 +27,7 @@ const AboutUs: FC<Props> = ({ propsRef }) => {
                 <div className={classes["image_div"]}>
                     <img
                         // className={classes["about_us_img_up"]}
-                        src="/img/about_us_img_up.jpg"
+                        src="/img/about_us_img_up.jpeg"
                         alt=""
                     />
                 </div>

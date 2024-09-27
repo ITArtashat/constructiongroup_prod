@@ -11,8 +11,8 @@ let projects = [
         img: "/img/portfolio_img_1.jpg",
     },
     {
-        text: "Կամուրջներ",
-        img: "/img/portfolio_img_2.png",
+        text: "Աշտարակներ",
+        img: "/img/portfolio_img_2.jpeg",
     },
     {
         text: "Քաղաքային այգի",

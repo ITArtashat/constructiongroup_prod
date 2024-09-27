@@ -3,6 +3,7 @@ import classes from "../style/footer.module.scss";
 import { SlLocationPin } from "react-icons/sl";
 import { FiPhone } from "react-icons/fi";
 import Image from "next/image";
+import Link from "next/link";
 interface Props {
     propsRef: MutableRefObject<HTMLDivElement | null>;
 }
@@ -27,7 +28,10 @@ const Footer: FC<Props> = ({ propsRef }) => {
                     </div>
                     <div className={classes["footer_links"]}>
                         <nav className={classes["links"]}>
-                            <a className={`${classes["links"]} `}>Մեր մասին</a>
+                            <a className={`${classes["links"]} `} href={"#home"}>
+                                Մեր մասին
+                            </a>
+                            {/* <Link href={"#home"}></Link> */}
                             <a className={classes["links"]} href="#portfolio">
                                 Պորտֆոլիո
                             </a>

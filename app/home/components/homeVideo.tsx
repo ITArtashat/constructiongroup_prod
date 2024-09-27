@@ -33,11 +33,11 @@ const HomeVideo: FC = () => {
         };
     }, []);
     return (
-        <div className={classes["home_main"]}>
+        <div className={classes["home_main"]} id="home">
             <div className={classes["home_section"]}>
                 <div className={classes["blur_div"]}></div>
                 <div className={classes["home_text_container"]}>
-                    <h1 className={classes["home_title"]}>Կառուցում ենք ճշգրտությամբ և փորձով</h1>
+                    <h1 className={classes["home_title"]}>ՔՈՆՍԹՐԱՔՇՆ ԳՐՈՒՊ ՍՊԸ</h1>
                     <h3>Կառուցում ենք ճշգրտությամբ և փորձով</h3>
                 </div>
                 <Image
