@@ -7,6 +7,7 @@ import Link from "next/link";
 interface Props {
     propsRef: MutableRefObject<HTMLDivElement | null>;
 }
+//
 const Footer: FC<Props> = ({ propsRef }) => {
     return (
         <footer ref={propsRef} className={classes["footer"]}>
